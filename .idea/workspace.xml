@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8b2f53d7-76b9-44c1-81ce-23e29e1df245" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1WGKhS8cOrNYsavy2VDesNMzHhC" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="RunManager" selected="Application.ConverterTest">
+    <configuration name="Converter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Converter" />
+      <module name="UnitConverter" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConverterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ConverterTest" />
+      <module name="UnitConverter" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ConverterTest" />
+        <item itemvalue="Application.Converter" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8b2f53d7-76b9-44c1-81ce-23e29e1df245" name="Default Changelist" comment="" />
+      <created>1578770610887</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578770610887</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="816" y="150" key="#com.intellij.ide.util.MemberChooser" timestamp="1578780856247">
+      <screen x="78" y="0" width="1458" height="864" />
+    </state>
+    <state x="816" y="150" key="#com.intellij.ide.util.MemberChooser/78.0.1458.864@78.0.1458.864" timestamp="1578780856247" />
+    <state x="580" y="124" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1578838607751">
+      <screen x="78" y="0" width="1458" height="864" />
+    </state>
+    <state x="580" y="124" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/78.0.1458.864@78.0.1458.864" timestamp="1578838607751" />
+    <state width="1414" height="266" key="GridCell.Tab.0.bottom" timestamp="1578849665397">
+      <screen x="78" y="0" width="1458" height="864" />
+    </state>
+    <state width="1414" height="266" key="GridCell.Tab.0.bottom/78.0.1458.864@78.0.1458.864" timestamp="1578849665397" />
+    <state width="1414" height="266" key="GridCell.Tab.0.center" timestamp="1578849665396">
+      <screen x="78" y="0" width="1458" height="864" />
+    </state>
+    <state width="1414" height="266" key="GridCell.Tab.0.center/78.0.1458.864@78.0.1458.864" timestamp="1578849665396" />
+    <state width="1414" height="266" key="GridCell.Tab.0.left" timestamp="1578849665396">
+      <screen x="78" y="0" width="1458" height="864" />
+    </state>
+    <state width="1414" height="266" key="GridCell.Tab.0.left/78.0.1458.864@78.0.1458.864" timestamp="1578849665396" />
+    <state width="1414" height="266" key="GridCell.Tab.0.right" timestamp="1578849665397">
+      <screen x="78" y="0" width="1458" height="864" />
+    </state>
+    <state width="1414" height="266" key="GridCell.Tab.0.right/78.0.1458.864@78.0.1458.864" timestamp="1578849665397" />
+    <state x="464" y="197" key="run.anything.popup" timestamp="1578840913038">
+      <screen x="78" y="0" width="1458" height="864" />
+    </state>
+    <state x="464" y="197" key="run.anything.popup/78.0.1458.864@78.0.1458.864" timestamp="1578840913038" />
+  </component>
+</project>
