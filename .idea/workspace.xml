@@ -14,7 +14,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1WGKhS8cOrNYsavy2VDesNMzHhC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,6 +26,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunManager" selected="Application.ConverterTest">
     <configuration name="Converter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -31,8 +39,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConverterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ConverterTest" />
+    <configuration name="Converter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Converter" />
       <module name="UnitConverter" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -70,6 +78,17 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
     <state x="816" y="150" key="#com.intellij.ide.util.MemberChooser" timestamp="1578780856247">
       <screen x="78" y="0" width="1458" height="864" />
@@ -79,22 +98,34 @@
       <screen x="78" y="0" width="1458" height="864" />
     </state>
     <state x="580" y="124" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/78.0.1458.864@78.0.1458.864" timestamp="1578838607751" />
-    <state width="1414" height="266" key="GridCell.Tab.0.bottom" timestamp="1578849665397">
+    <state x="587" y="188" key="FileChooserDialogImpl" timestamp="1578910270085">
       <screen x="78" y="0" width="1458" height="864" />
     </state>
-    <state width="1414" height="266" key="GridCell.Tab.0.bottom/78.0.1458.864@78.0.1458.864" timestamp="1578849665397" />
-    <state width="1414" height="266" key="GridCell.Tab.0.center" timestamp="1578849665396">
+    <state x="587" y="188" key="FileChooserDialogImpl/78.0.1458.864@78.0.1458.864" timestamp="1578910270085" />
+    <state width="1414" height="266" key="GridCell.Tab.0.bottom" timestamp="1578914581423">
       <screen x="78" y="0" width="1458" height="864" />
     </state>
-    <state width="1414" height="266" key="GridCell.Tab.0.center/78.0.1458.864@78.0.1458.864" timestamp="1578849665396" />
-    <state width="1414" height="266" key="GridCell.Tab.0.left" timestamp="1578849665396">
+    <state width="1414" height="266" key="GridCell.Tab.0.bottom/78.0.1458.864@78.0.1458.864" timestamp="1578914581423" />
+    <state width="1414" height="266" key="GridCell.Tab.0.center" timestamp="1578914581422">
       <screen x="78" y="0" width="1458" height="864" />
     </state>
-    <state width="1414" height="266" key="GridCell.Tab.0.left/78.0.1458.864@78.0.1458.864" timestamp="1578849665396" />
-    <state width="1414" height="266" key="GridCell.Tab.0.right" timestamp="1578849665397">
+    <state width="1414" height="266" key="GridCell.Tab.0.center/78.0.1458.864@78.0.1458.864" timestamp="1578914581422" />
+    <state width="1414" height="266" key="GridCell.Tab.0.left" timestamp="1578914581422">
       <screen x="78" y="0" width="1458" height="864" />
     </state>
-    <state width="1414" height="266" key="GridCell.Tab.0.right/78.0.1458.864@78.0.1458.864" timestamp="1578849665397" />
+    <state width="1414" height="266" key="GridCell.Tab.0.left/78.0.1458.864@78.0.1458.864" timestamp="1578914581422" />
+    <state width="1414" height="266" key="GridCell.Tab.0.right" timestamp="1578914581423">
+      <screen x="78" y="0" width="1458" height="864" />
+    </state>
+    <state width="1414" height="266" key="GridCell.Tab.0.right/78.0.1458.864@78.0.1458.864" timestamp="1578914581423" />
+    <state x="316" y="16" key="SettingsEditor" timestamp="1578913847688">
+      <screen x="78" y="0" width="1458" height="864" />
+    </state>
+    <state x="316" y="16" key="SettingsEditor/78.0.1458.864@78.0.1458.864" timestamp="1578913847688" />
+    <state x="617" y="350" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578915208485">
+      <screen x="78" y="0" width="1458" height="864" />
+    </state>
+    <state x="617" y="350" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/78.0.1458.864@78.0.1458.864" timestamp="1578915208485" />
     <state x="464" y="197" key="run.anything.popup" timestamp="1578840913038">
       <screen x="78" y="0" width="1458" height="864" />
     </state>
