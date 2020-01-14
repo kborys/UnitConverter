@@ -5,151 +5,63 @@ public abstract class LengthUnit {
     double toMetersRatio;
     double toKilometersRatio;
 
-    abstract double toMilimeters(double input);
-    abstract double toCentimeters(double input);
-    abstract double toDecimeters(double input);
-    abstract double toMeters(double input);
-    abstract double toKilometers(double input);
 
+    double toMilimeters(double input){
+        return input * toMilimetersRatio;
+    }
+
+    double toCentimeters(double input){
+        return input * toCentimetersRatio;
+    }
+
+    double toDecimeters(double input){
+        return input * toDecimetersRatio;
+    }
+
+    double toMeters(double input){
+        return input * toMetersRatio;
+    }
+
+    double toKilometers(double input){
+        return input * toKilometersRatio;
+    }
+
+    public LengthUnit(double toMilimetersRatio, double toCentimetersRatio, double toDecimetersRatio, double toMetersRatio, double toKilometersRatio) {
+        this.toMilimetersRatio = toMilimetersRatio;
+        this.toCentimetersRatio = toCentimetersRatio;
+        this.toDecimetersRatio = toDecimetersRatio;
+        this.toMetersRatio = toMetersRatio;
+        this.toKilometersRatio = toKilometersRatio;
+    }
 }
 
 
 class Milimeter extends LengthUnit{
-    double toMilimetersRatio = 1.0f;
-    double toCentimetersRatio = 0.1f;
-    double toDecimetersRatio = 0.01f;
-    double toMetersRatio = 0.001f;
-    double toKilometersRatio = 0.000001f;
-
-    double toMilimeters(double input){
-        return input * toMilimetersRatio;
-    }
-
-    double toCentimeters(double input){
-        return input * toCentimetersRatio;
-    }
-
-    double toDecimeters(double input){
-        return input * toDecimetersRatio;
-    }
-
-    double toMeters(double input){
-        return input * toMetersRatio;
-    }
-
-    double toKilometers(double input){
-        return input * toKilometersRatio;
+    public Milimeter(){
+        super(1, 0.1, 0.01, 0.001, 0.000001);
     }
  }
 
 class Centimeter extends LengthUnit{
-    double toMilimetersRatio = 10f;
-    double toCentimetersRatio = 1f;
-    double toDecimetersRatio = 0.1f;
-    double toMetersRatio = 0.01f;
-    double toKilometersRatio = 0.00001f;
-
-    double toMilimeters(double input){
-        return input * toMilimetersRatio;
-    }
-
-    double toCentimeters(double input){
-        return input * toCentimetersRatio;
-    }
-
-    double toDecimeters(double input){
-        return input * toDecimetersRatio;
-    }
-
-    double toMeters(double input){
-        return input * toMetersRatio;
-    }
-
-    double toKilometers(double input){
-        return input * toKilometersRatio;
+    public Centimeter(){
+        super(10, 1, 0.1, 0.01, 0.00001);
     }
 }
 
 class Decimeter extends LengthUnit{
-    double toMilimetersRatio = 100f;
-    double toCentimetersRatio = 10f;
-    double toDecimetersRatio = 1f;
-    double toMetersRatio = 0.1f;
-    double toKilometersRatio = 0.0001f;
-
-    double toMilimeters(double input){
-        return input * toMilimetersRatio;
-    }
-
-    double toCentimeters(double input){
-        return input * toCentimetersRatio;
-    }
-
-    double toDecimeters(double input){
-        return input * toDecimetersRatio;
-    }
-
-    double toMeters(double input){
-        return input * toMetersRatio;
-    }
-
-    double toKilometers(double input){
-        return input * toKilometersRatio;
+    public Decimeter(){
+        super(100, 10, 1, 0.1, 0.0001);
     }
 }
 
 class Meter extends LengthUnit{
-    double toMilimetersRatio = 0.001f;
-    double toCentimetersRatio = 0.01f;
-    double toDecimetersRatio = 0.1f;
-    double toMetersRatio = 1f;
-    double toKilometersRatio = 0.001f;
-
-    double toMilimeters(double input){
-        return input * toMilimetersRatio;
-    }
-
-    double toCentimeters(double input){
-        return input * toCentimetersRatio;
-    }
-
-    double toDecimeters(double input){
-        return input * toDecimetersRatio;
-    }
-
-    double toMeters(double input){
-        return input * toMetersRatio;
-    }
-
-    double toKilometers(double input){
-        return input * toKilometersRatio;
+    public Meter(){
+        super(1000, 100, 10, 1, 0.001);
     }
 }
 
 class Kilometer extends LengthUnit{
-    double toMilimetersRatio = 1000000f;
-    double toCentimetersRatio = 100000f;
-    double toDecimetersRatio = 10000f;
-    double toMetersRatio = 1000f;
-    double toKilometersRatio = 1f;
-
-    double toMilimeters(double input){
-        return input * toMilimetersRatio;
-    }
-
-    double toCentimeters(double input){
-        return input * toCentimetersRatio;
-    }
-
-    double toDecimeters(double input){
-        return input * toDecimetersRatio;
-    }
-
-    double toMeters(double input){
-        return input * toMetersRatio;
-    }
-
-    double toKilometers(double input){
-        return input * toKilometersRatio;
+    public Kilometer(){
+        super(1000000, 100000, 10000, 1000, 1);
     }
 }
